@@ -51,15 +51,15 @@ There are argues about this [calculation accuracy](https://en.wikipedia.org/wiki
 
 **5-** Ali-mohammad Kaveh(1920-1996) suggested 161 years cycles (composed of 33,33,33,33 and 29 years cycles). He introduced year -140 SH(including year 0) or year -141 SH(excluding year 0) as the first year of ninth cycle.
 
-**6-** The next method suggested by [**MohammadReza Sayad**](http://mirasmaktoob.ir/fa/system/files/nashriat/ME3-Sayad-Sal.pdf) suggested to use vernal equinox moments calculated by a software named [**"Accurate Times" by Mohammad Odeh** ](http://www.icoproject.org/accut.html?l=en) . This software originally programed to calculate lunar events and Islamic calender for religiose porposes in Islamic countries and adopted by the Jordanian Ministry of Islamic Affairs to calculate the prayer times in Jordan and afterward accepted as official software to calculate prayer times in UAE. So it seems reasonably precise. By this software he suggested a large complex combination of different cycles(227, 260, 128, 99, 161, 260, 227, 260, 425, 99, 293, 132, 425, 132, 132, 132 and 528 years). His calculation starts from year -940SH(including year 0) and ends by 2979SH.
+**6-** The next method suggested by [**MohammadReza Sayad**](http://mirasmaktoob.ir/fa/system/files/nashriat/ME3-Sayad-Sal.pdf) suggested to use vernal equinox moments calculated by a software named [**"Accurate Times" by Mohammad Odeh** ](http://www.icoproject.org/accut.html?l=en) . This software originally programed to calculate lunar events and Islamic calender for religiose porposes in Islamic countries and adopted by the Jordanian Ministry of Islamic Affairs to calculate the prayer times in Jordan and afterward accepted as official software to calculate prayer times in UAE. So it seems reasonably precise. By this software he suggested a large complex combination of different cycles(227, 260, 128, 99, 161, 260, 227, 260, 425, 99, 293, 132, 425, 132, 132, 132 and 528 years). His calculation starts from year -940 SH(including year 0) and ends by 2979 SH.
 
 ___
 
 We need to compare these methods and also we need some references to evaluate their accuracy. For this evaluation I used these sources:
-a) New year moments from 1360 SH(Persian calendar) to 1399 SH by [Calendar Center in University of Tehran](https://calendar.ut.ac.ir/Fa/Tahvil/past.asp?ID=0)
-b) Solstices & Equinoxes for Tehran by [www.timeanddate.com](https://www.timeanddate.com/calendar/seasons.html)
-c) I also use [**KStars software**](https://edu.kde.org/kstars) as I found it has a batch process to calculate vernal equinox for many years.
-d) As I could not find a bach processor or CLI command from [**Accurate Times** ](http://www.icoproject.org/accut.html?l=en) I will use it randomly to check some years or to add extra point for some years that we find difference between two first mathematical method.
+a.) New year moments from 1360 SH(Persian calendar) to 1399 SH by [Calendar Center in University of Tehran](https://calendar.ut.ac.ir/Fa/Tahvil/past.asp?ID=0)
+b.) Solstices & Equinoxes for Tehran by [www.timeanddate.com](https://www.timeanddate.com/calendar/seasons.html)
+c.) I also use [**KStars software**](https://edu.kde.org/kstars) as I found it has a batch process to calculate vernal equinox for many years.
+d.) As I could not find a bach processor or CLI command from [**Accurate Times** ](http://www.icoproject.org/accut.html?l=en) I will use it randomly to check some years or to add extra point for some years that we find difference between two first mathematical method.
 
 
 ###### Some notes about above sources:
