@@ -21,7 +21,7 @@ Here I decided to follow astronomical way and count year 0 (It makes calculation
 Base knowledge:
 ---
 - **Persian(Jalai) Calendar:**
->"The Solar Hijri calendar (Persian: گاه‌شماری هجری خورشیدی‎, romanized: gāhshomāri-ye hejri-ye khorshidi; Pashto: لمريز لېږدیز کلیز‎), also called the Iranian Hijri calendar or Shamsi Hijri calendar, and abbreviated as SH, is the official calendar of Iran and Afghanistan. It begins on the March equinox (Nowruz) as determined by astronomical calculation for the Iran Standard Time meridian (52.5°E, UTC+03:30) and has years of 365 or 366 days." [Wikipedia/Solar_Hijri_Calendar](https://en.wikipedia.org/wiki/Solar_Hijri_calendar#Accuracy) 
+>"The Solar Hijri calendar (Persian: گاه‌شماری هجری خورشیدی‎, romanized: gāhshomāri-ye hejri-ye khorshidi; Pashto: لمريز لېږدیز کلیز‎), also called the Iranian Hijri calendar or Shamsi Hijri calendar, and abbreviated as SH, is the official calendar of Iran and Afghanistan. It begins on the March equinox (Nowruz) as determined by astronomical calculation for the Iran Standard Time meridian (52.5°E, UTC+03:30) and has years of 365 or 366 days." [Wikipedia/Solar_Hijri_Calendar](https://en.wikipedia.org/wiki/Solar_Hijri_calendar) 
 
 As we see by definition in wikipedia the Jalali calendar based on real event of vernal equinox and we know this moment changes every year due to astronomical corelation between earth and sun and moon. 
 It is observed and calculated for thousands of years so far and we know the length of a mean solar year betweem two following vernal equionx evnet is something about 365 days, 5 hours, 48 minutes and 45 seconds (365.24219 days) as average for about 2000 years. It can varies less than an hour during years.
@@ -41,7 +41,7 @@ So by this caculation they suggested a 33 years cycle for leap year calculation 
 
 **1-** One of the most famous is [**Zabih Behruz**](https://en.wikipedia.org/wiki/Zabih_Behrouz) -  [**Ahmad Birashk**](https://en.wikipedia.org/wiki/Solar_Hijri_calendar#Birashk_leap_year_algorithm) leap year algorithm. 
 Iranian mathematician Ahmad Birashk (1907-2002) proposed an alternative means of determining leap years. Birashk's book came out in 1993, and his algorithm was based on the same apparently erroneous presumptions as used by Zabih Behruz in his book from 1952. Birashk's technique avoids the need to determine the moment of the astronomical equinox, replacing it with a very complex leap year structure. Years are grouped into cycles which begin with four normal years followed by a leap year and after which every fourth subsequent year in the cycle is a leap year. Cycles are grouped into grand cycles of either 128 years (composed of cycles of 29, 33, 33, and 33 years) or 132 years, containing cycles of 29, 33, 33, and 37 years. A great period cycle is composed of 21 consecutive 128-year grand cycles and a final 132 grand cycle, for a total of 2820 years. By this suggestion a grand period started from -2345 SH(by counting year 0) or -2346 SH without a year zero in mind. So this grand period has ended on 474 SH and next grand period started from 476 SH.
-There are argues about this [calculation accuracy](https://en.wikipedia.org/wiki/Solar_Hijri_calendar#Accuracy_of_the_Birashk_algorithm) .A detailed argue in this subject introduced by [**M. Heydari-Malayeri**](http://aramis.obspm.fr/~heydari/divers/ir-cal-eng.pdf) and other article by [**ماشاءالله على احیایى**](https://jihs.ut.ac.ir/article_11493_cab7c31e3bbdab0b906887b4457010a9.pdf) 
+There are argues about this [calculation accuracy](https://en.wikipedia.org/wiki/Solar_Hijri_calendar#Accuracy_of_the_Birashk_algorithm) .A detailed argue in this subject introduced by [**M.Heydari-Malayeri**](http://aramis.obspm.fr/~heydari/divers/ir-cal-eng.pdf) and other article by [**ماشاءالله على احیایى**](https://jihs.ut.ac.ir/article_11493_cab7c31e3bbdab0b906887b4457010a9.pdf) 
 
 **2-** Another method suggested by [**Musa Akrami**](https://jihs.ut.ac.ir/article_36132_d63382c3dffb2b260b27f221afc10077.pdf) . In his calculation he accepted the mean tropical year length as 365.24219879 days. He used the fraction of day 0.24219879 days (= 5 hours + 48 minutes + 45.975456 seconds) for reference and assumed if calculated vernal equinox happens between noon and a "day fraction" before noon (12 hours – “day fraction”≈ 6 hours + 11 minutes + 14.024544 seconds = 6:11:14.024544  and 12:00:00) this should be a leap year ending and in other cases it is a common year ending.
 
@@ -82,7 +82,7 @@ In the range of data we collected from calendar center in University of Tehran w
 
 Data collected from timeanddate.com starts to show some difference to other sources from year 1699 downward. Differences starts from few seconds about year 1699 and increase when we go back to years before.
 It seems this web site uses a different mathematical algorithem or different table of constants.
-I can not judge which one is more correct but as I see close values between Accurate Times and KStars software and also KStars is an open source software and I found in that code it uses  algorithem and table constants introduced by Jean Meeus, I expect it should be enough precise.
+I can not judge which one is more correct but as I see close values between Accurate Times and KStars software and also KStars is an open source software and I found in that code it uses algorithem and constants table introduced by Jean Meeus, I expect it should be enough precise.
 
 The only error I see between KStars and Accurate Times and Sayyad method is year 399 and I see about 20 minutes difference between KStars and Accurate Times. But with a closer look I found by a correction of 50 seconds KStars can comply with Accurate Times. So I decided to accpet Accurate Times at this point.
 
@@ -101,7 +101,7 @@ Unix time (also known as Epoch time, POSIX time, seconds since the Epoch, or UNI
 
 ### Useful references:
 * [March equinox (vernal equinox)](https://en.wikipedia.org/wiki/March_equinox) 
-* [Solar Hijri calendar](https://en.wikipedia.org/wiki/Solar_Hijri_calendar#Accuracy_of_the_Birashk_algorithm) 
+* [Solar Hijri calendar](https://en.wikipedia.org/wiki/Solar_Hijri_calendar) 
 * [Calendar center in University of Tehran](https://calendar.ut.ac.ir/Fa/) 
 * [timeanddate.com](https://www.timeanddate.com/calendar/seasons.html?year=700) 
 * [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 
