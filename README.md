@@ -32,7 +32,7 @@ We indicate a Persian(Jalali) date by SH postfix to distinguish with Gregorian
 To calculate Nowruz (First day of year) we attend to vernal equinox moment in the day it happen. So if it happen before exact noon time (Sun transit time) we accept the day as the first day of new year and if it happen after exact noon time (Sun transit)  we call it the last day of ending year. So then we can find if the last month of ending year is 29 or 30 days and so is the ending year a common or leap year.
 As this decision is dependent to time zone of calculation and as this is basically an Iranian (Persian) calendar it accepted to use Iran Satandard Time zone (IRST) (UTC)as its base of calculation.
 Since the calendar uses astronomical calculation for determining the vernal equinox, it has no intrinsic error, but this makes it an observation-based calendar.
->![Image: Jalali Calendar Leap Year Intervals(from Wikipedia)](./Solar Hijri calendar- leap years - Wikipedia.png  "Leap years")
+>![Image: Jalali Calendar Leap Year Intervals(from Wikipedia)](./Solar_Hijri_calendar_leap_years_Wikipedia.png  "Leap years")
 
 Although precise year calculation by this definition needs observation, there are efforts to define its mathematical algorithm.
 
