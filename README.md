@@ -39,7 +39,7 @@ Although precise year calculation by this definition needs observation, there ar
 **0-** First of all what we believe calculated by Iranian historical scientist [**Omar Khayyam**](https://en.wikipedia.org/wiki/Omar_Khayyam)  (Mathematician-Astronomist-Poet and Philosopher) (18 May 1048 – 4 December 1131) and his team and successor [**Al-Khazini**](https://en.wikipedia.org/wiki/Al-Khazini)  . They amazingly calculated tropical mean year length as 365.2424 days that is even more accurate than mean Gregorain year length 365.2425 calculated about 500 years later!!!
 So by this caculation they suggested a 33 years cycle for leap year calculation with 25 common year and 8 leap year.
 
-**1-** One of the most famous is [**Zabih Behruz**](https://en.wikipedia.org/wiki/Zabih_Behrouz) -  [**Ahmad Birashk **](https://en.wikipedia.org/wiki/Solar_Hijri_calendar#Birashk_leap_year_algorithm) leap year algorithm. 
+**1-** One of the most famous is [**Zabih Behruz**](https://en.wikipedia.org/wiki/Zabih_Behrouz) -  [**Ahmad Birashk**](https://en.wikipedia.org/wiki/Solar_Hijri_calendar#Birashk_leap_year_algorithm) leap year algorithm. 
 Iranian mathematician Ahmad Birashk (1907-2002) proposed an alternative means of determining leap years. Birashk's book came out in 1993, and his algorithm was based on the same apparently erroneous presumptions as used by Zabih Behruz in his book from 1952. Birashk's technique avoids the need to determine the moment of the astronomical equinox, replacing it with a very complex leap year structure. Years are grouped into cycles which begin with four normal years followed by a leap year and after which every fourth subsequent year in the cycle is a leap year. Cycles are grouped into grand cycles of either 128 years (composed of cycles of 29, 33, 33, and 33 years) or 132 years, containing cycles of 29, 33, 33, and 37 years. A great period cycle is composed of 21 consecutive 128-year grand cycles and a final 132 grand cycle, for a total of 2820 years. By this suggestion a grand period started from -2345SH(by counting year 0) or -2346SH without a year zero in mind. So this grand period has ended on 474 SH and next grand period started from 476 SH.
 There are argues about this [calculation accuracy](https://en.wikipedia.org/wiki/Solar_Hijri_calendar#Accuracy_of_the_Birashk_algorithm) .A detailed argue in this subject introduced by [**M. Heydari-Malayeri**](http://aramis.obspm.fr/~heydari/divers/ir-cal-eng.pdf) and other article by [**ماشاءالله على احیایى**](https://jihs.ut.ac.ir/article_11493_cab7c31e3bbdab0b906887b4457010a9.pdf) 
 
@@ -58,7 +58,7 @@ ___
 We need to compare these methods and also we need some references to evaluate their accuracy. For this evaluation I used these sources:
 a) New year moments from 1360 SH(Persian calendar) to 1399 SH by [Calendar Center in University of Tehran](https://calendar.ut.ac.ir/Fa/Tahvil/past.asp?ID=0)
 b) Solstices & Equinoxes for Tehran by [www.timeanddate.com](https://www.timeanddate.com/calendar/seasons.html)
-c) I also use [** KStars software **](https://edu.kde.org/kstars) as I found it has a batch process to calculate vernal equinox for many years.
+c) I also use [**KStars software**](https://edu.kde.org/kstars) as I found it has a batch process to calculate vernal equinox for many years.
 d) As I could not find a bach processor or CLI command from [**Accurate Times** ](http://www.icoproject.org/accut.html?l=en) I will use it randomly to check some years or to add extra point for some years that we find difference between two first mathematical method.
 
 
