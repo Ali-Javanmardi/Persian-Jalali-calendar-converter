@@ -62,11 +62,11 @@ c) I also use [** KStars software **](https://edu.kde.org/kstars) as I found it 
 d) As I could not find a bach processor or CLI command from [**Accurate Times** ](http://www.icoproject.org/accut.html?l=en) I will use it randomly to check some years or to add extra point for some years that we find difference between two first mathematical method.
 
 
-######Some notes about above sources:
-######a) Data from calendar center in University of Tehran limited to 1206 SH - 1498 SH  (1827 - 2119)
-######b) Data from timeanddate.com introduced in Gregorian calendar for years greater than 1752 and by Julian calendar for years before. Also those data adapted Iranian timezone changes during times. For simplicity of comparison I changed all dates to proleptic Gregorian calendar and also converted all times to IRST (UTC +3:30). Data available in timeanddate.com starts from year 1 to 2149 so I limited my upper bound of comparison to 2149.
-######c) KStars software uses calculation tables introduced by [**Jean Meeus**](https://en.wikipedia.org/wiki/Jean_Meeus)  in his book  Astronomical Algorithms (1998), 2nd ed, ISBN 0-943396-61-1. Data available in KStars software starts from year 100 to 3000 so I limited my lower bound of comparison to 100.
-######d) Accurate Times software uses Gregorian calender for years greater than 1582 and Julian calendar for years up to 1582. So I converted all dates before 1582 from Julian calendar to proleptic Gregorian calendar for comparison.
+#####Some notes about above sources:
+#####a) Data from calendar center in University of Tehran limited to 1206 SH - 1498 SH  (1827 - 2119)
+#####b) Data from timeanddate.com introduced in Gregorian calendar for years greater than 1752 and by Julian calendar for years before. Also those data adapted Iranian timezone changes during times. For simplicity of comparison I changed all dates to proleptic Gregorian calendar and also converted all times to IRST (UTC +3:30). Data available in timeanddate.com starts from year 1 to 2149 so I limited my upper bound of comparison to 2149.
+#####c) KStars software uses calculation tables introduced by [**Jean Meeus**](https://en.wikipedia.org/wiki/Jean_Meeus)  in his book  Astronomical Algorithms (1998), 2nd ed, ISBN 0-943396-61-1. Data available in KStars software starts from year 100 to 3000 so I limited my lower bound of comparison to 100.
+#####d) Accurate Times software uses Gregorian calender for years greater than 1582 and Julian calendar for years up to 1582. So I converted all dates before 1582 from Julian calendar to proleptic Gregorian calendar for comparison.
 
 ___
 ##Comparison of different methods and reference data:
