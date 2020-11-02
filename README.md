@@ -56,10 +56,14 @@ There are argues about this [calculation accuracy](https://en.wikipedia.org/wiki
 ___
 
 We need to compare these methods and also we need some references to evaluate their accuracy. For this evaluation I used these sources:
-a.) New year moments from 1360 SH(Persian calendar) to 1399 SH by [Calendar Center in University of Tehran](https://calendar.ut.ac.ir/Fa/Tahvil/past.asp?ID=0)
-b.) Solstices & Equinoxes for Tehran by [www.timeanddate.com](https://www.timeanddate.com/calendar/seasons.html)
-c.) I also use [**KStars software**](https://edu.kde.org/kstars) as I found it has a batch process to calculate vernal equinox for many years.
-d.) As I could not find a bach processor or CLI command from [**Accurate Times** ](http://www.icoproject.org/accut.html?l=en) I will use it randomly to check some years or to add extra point for some years that we find difference between two first mathematical method.
+
+a) New year moments from 1360 SH(Persian calendar) to 1399 SH by [**Calendar Center in University of Tehran**](https://calendar.ut.ac.ir/Fa/Tahvil/past.asp?ID=0)
+
+b) Solstices & Equinoxes for Tehran by [**www.timeanddate.com**](https://www.timeanddate.com/calendar/seasons.html)
+
+c) I also use [**KStars software**](https://edu.kde.org/kstars) as I found it has a batch process to calculate vernal equinox for many years.
+
+d) As I could not find a bach processor or CLI command from [**Accurate Times** ](http://www.icoproject.org/accut.html?l=en) I will use it randomly to check some years or to add extra point for some years that we find difference between two first mathematical method.
 
 
 ###### Some notes about above sources:
