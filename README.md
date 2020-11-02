@@ -2,15 +2,15 @@
 ===
 Goals:
 ---
-**0. Representing Persian(Jalai) calendar as similar as possible to what [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)  introduced for Gregorian calendar**
-**1. Persian(Jalai) data/datetime struct/class**
-**2. Generating Persian(Jalai) date/datetime by numbers**
-**3. Converting Persian(Jalali) date to [JDN](https://en.wikipedia.org/wiki/Julian_day)(Julian day)  and reverse**
-**4. Converting Persian(Jalai) calendar datetime to unix epoch and reverse**
-**5. Converting Persian(Jalai) calendar date to [Gregorian calendar ](https://en.wikipedia.org/wiki/Gregorian_calendar) and [Proleptic Gregorian calendar](https://en.wikipedia.org/wiki/Proleptic_Gregorian_calendar)  for dates older than 1582(When Gregorian calendar introduced) and reverse**
-**6. Converting Persian(Jalai) calendar date to [Julian(old) calendar](https://en.wikipedia.org/wiki/Julian_calendar)  and [Proleptic Julian calendar](https://en.wikipedia.org/wiki/Proleptic_Julian_calendar)  (Before [AD 8](https://en.wikipedia.org/wiki/AD_8)  ) and reverse**
-**7. Formating Persian(Jalai) date to text (English/Persian)**
-**8. Parsing Persian(Jalai) date from text (English/Persian)** 
+0. **Representing Persian(Jalai) calendar as similar as possible to what [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)  introduced for Gregorian calendar**
+1. **Persian(Jalai) data/datetime struct/class**
+2. **Generating Persian(Jalai) date/datetime by numbers**
+3. **Converting Persian(Jalali) date to [JDN](https://en.wikipedia.org/wiki/Julian_day)(Julian day)  and reverse**
+4. **Converting Persian(Jalai) calendar datetime to unix epoch and reverse**
+5. **Converting Persian(Jalai) calendar date to [Gregorian calendar ](https://en.wikipedia.org/wiki/Gregorian_calendar) and [Proleptic Gregorian calendar](https://en.wikipedia.org/wiki/Proleptic_Gregorian_calendar)  for dates older than 1582(When Gregorian calendar introduced) and reverse**
+6. **Converting Persian(Jalai) calendar date to [Julian(old) calendar](https://en.wikipedia.org/wiki/Julian_calendar)  and [Proleptic Julian calendar](https://en.wikipedia.org/wiki/Proleptic_Julian_calendar)  (Before [AD 8](https://en.wikipedia.org/wiki/AD_8)  ) and reverse**
+7. **Formating Persian(Jalai) date to text (English/Persian)**
+8. **Parsing Persian(Jalai) date from text (English/Persian)** 
 ***
 
 Decision about year 0:
@@ -62,14 +62,14 @@ c) I also use [** KStars software **](https://edu.kde.org/kstars) as I found it 
 d) As I could not find a bach processor or CLI command from [**Accurate Times** ](http://www.icoproject.org/accut.html?l=en) I will use it randomly to check some years or to add extra point for some years that we find difference between two first mathematical method.
 
 
-#####Some notes about above sources:
-#####a) Data from calendar center in University of Tehran limited to 1206 SH - 1498 SH  (1827 - 2119)
-#####b) Data from timeanddate.com introduced in Gregorian calendar for years greater than 1752 and by Julian calendar for years before. Also those data adapted Iranian timezone changes during times. For simplicity of comparison I changed all dates to proleptic Gregorian calendar and also converted all times to IRST (UTC +3:30). Data available in timeanddate.com starts from year 1 to 2149 so I limited my upper bound of comparison to 2149.
-#####c) KStars software uses calculation tables introduced by [**Jean Meeus**](https://en.wikipedia.org/wiki/Jean_Meeus)  in his book  Astronomical Algorithms (1998), 2nd ed, ISBN 0-943396-61-1. Data available in KStars software starts from year 100 to 3000 so I limited my lower bound of comparison to 100.
-#####d) Accurate Times software uses Gregorian calender for years greater than 1582 and Julian calendar for years up to 1582. So I converted all dates before 1582 from Julian calendar to proleptic Gregorian calendar for comparison.
+###### Some notes about above sources:
+###### a) Data from calendar center in University of Tehran limited to 1206 SH - 1498 SH  (1827 - 2119)
+###### b) Data from timeanddate.com introduced in Gregorian calendar for years greater than 1752 and by Julian calendar for years before. Also those data adapted Iranian timezone changes during times. For simplicity of comparison I changed all dates to proleptic Gregorian calendar and also converted all times to IRST (UTC +3:30). Data available in timeanddate.com starts from year 1 to 2149 so I limited my upper bound of comparison to 2149.
+###### c) KStars software uses calculation tables introduced by [**Jean Meeus**](https://en.wikipedia.org/wiki/Jean_Meeus)  in his book  Astronomical Algorithms (1998), 2nd ed, ISBN 0-943396-61-1. Data available in KStars software starts from year 100 to 3000 so I limited my lower bound of comparison to 100.
+###### d) Accurate Times software uses Gregorian calender for years greater than 1582 and Julian calendar for years up to 1582. So I converted all dates before 1582 from Julian calendar to proleptic Gregorian calendar for comparison.
 
 ___
-##Comparison of different methods and reference data:
+## Comparison of different methods and reference data:
 To do this comparison I made a spreadsheet by mentioned above methods and data sources and you can find this spreadsheet [here](./compare_different_methods_with_kstars_and_timeanddate_com_leap_years_by_noon_reference.pdf) .
 
 As we can see all methods except method suggested by Mohammadreza Sayyad have a lot of errors in comparison to all four sources we choosed as reference. So here after I just focus on this method (Sayyad method) and ignore all others.
@@ -82,7 +82,7 @@ I can not judge which one is more correct but as I see close values between Accu
 
 The only error I see between KStars and Accurate Times and Sayyad method is year 399 and I see about 20 minutes difference between KStars and Accurate Times. But with a closer look I found by a correction of 50 seconds KStars can comply with Accurate Times. So I decided to accpet Accurate Times at this point.
 
-####Finally I agreed to do date conversion, I shall use Sayyad method or do entire calculation by algorithem and constant tables from Jean Meeus.
+#### Finally I agreed to do date conversion, I shall use Sayyad method or do entire calculation by algorithem and constant tables from Jean Meeus.
 
 ___
 
@@ -95,7 +95,7 @@ Unix time (also known as Epoch time, POSIX time, seconds since the Epoch, or UNI
 
 ---
 
-###Useful references:
+### Useful references:
 * [March equinox (vernal equinox)](https://en.wikipedia.org/wiki/March_equinox) 
 * [Solar Hijri calendar](https://en.wikipedia.org/wiki/Solar_Hijri_calendar#Accuracy_of_the_Birashk_algorithm) 
 * [Calendar center in University of Tehran](https://calendar.ut.ac.ir/Fa/) 
